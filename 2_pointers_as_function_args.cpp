@@ -28,9 +28,6 @@ int main()
   add_v2(my_var);
   cout << "my_var: " << my_var << endl;
 
-  // Invalid
-  // add_v3(&my_var);
-
   int *my_ptr = &my_var;
   cout << "my_ptr: " << my_ptr << endl;
   cout << "*my_ptr: " << *my_ptr << endl;
